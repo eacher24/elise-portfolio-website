@@ -1,0 +1,13 @@
+:root {
+  --dark-blue: #3E4560;
+  --light-blue: #00AEEF;
+  --cream: #EEEEEE;
+  --black: #000000;
+}
+
+.app {
+  *{
+    border: 2px solid red;
+  }
+  font-family: "DM Sans", sans-serif;
+}

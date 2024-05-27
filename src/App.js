@@ -1,4 +1,5 @@
 import './App.css';
+import './styles/landing.css';
 import Landing from  './components/Landing';
 import Hero from './components/Hero';
 import About from './components/About';
