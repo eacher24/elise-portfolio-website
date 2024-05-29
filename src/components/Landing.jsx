@@ -2,7 +2,7 @@ import React from 'react'
 import quoteup from './assets/quoteup.png';
 import quotedown from './assets/quotedown.png';
 import chevron from './assets/chevron-down-regular-24.png';
-import Typewriter from "typewriter-effect";
+// import Typewriter from "typewriter-effect";
 
 
 
