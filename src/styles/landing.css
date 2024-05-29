@@ -1,6 +1,9 @@
 .landing{
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+
 }
 
 img {
@@ -8,11 +11,29 @@ img {
   width: auto;
 }
 
+.up-quote {
+  align-self: flex-start;
+  margin-top: 10%;
+  margin-right: 2%;
+}
+
+.down-quote {
+  margin-top: 20%;
+  align-self: flex-end;
+  margin-bottom: 10%;
+  margin-left: 2%;
+}
+
 .quote-container{
   display: flex;
   flex-direction: row;
   width: 100vw;
   height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+
+
   /* position: absolute;
   top: 0;
   right: 0;
@@ -20,7 +41,7 @@ img {
   left: 0;
   flex-grow: 2; */
   padding: 0;
-  align-content: space-between;
+  /* align-content: space-between; */
 
 
 }
@@ -30,18 +51,45 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 200%;
+  font-size: 180%;
   text-align: center;
+  margin-top: 10%;
 }
 
-.achievable {
-  font-size: 500%;
+.line-1 {
+  margin-bottom: 10px;
+}
+
+
+.typewriter-text {
+  margin-top: 0;
+  font-size: 450%;
   padding: 0px;
+  color:  var(--dark-blue)
 
 }
 
-.more-button-container {
+.more {
+  justify-content: center;
+
+
+}
+
+a {
   display: flex;
-  justify-self: center;
   align-items: center;
+  color: grey;
+  text-decoration: none;
+}
+
+.custom-icon {
+  width: 50px;  /* Example width */
+  height: 50px; /* Example height */
+  fill: blue;    /* Example fill color */
+}
+
+.chevron {
+  width: 30px;
+  height: auto;
+  color: grey;
 }
