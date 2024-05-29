@@ -2,6 +2,7 @@ import './App.css';
 import './styles/landing.css';
 import 'boxicons/css/boxicons.min.css';
 import './styles/navbar.css';
+import './styles/hero.css';
 import Landing from  './components/Landing';
 import Hero from './components/Hero';
 import About from './components/About';
