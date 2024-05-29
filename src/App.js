@@ -1,11 +1,13 @@
 import './App.css';
 import './styles/landing.css';
 import 'boxicons/css/boxicons.min.css';
+import './styles/navbar.css';
 import Landing from  './components/Landing';
 import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 
@@ -17,6 +19,8 @@ function App() {
 
       <div className="app">
         <Landing />
+        <Navbar />
+
         <Hero />
         <About />
         <Projects />
